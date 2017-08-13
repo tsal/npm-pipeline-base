@@ -4,7 +4,8 @@
   "description": "culturescrum boilerplate for npm",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "mkdir -p dist/ && touch dist/index.html"
   },
   "repository": {
     "type": "git",
