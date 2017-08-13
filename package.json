@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/culturescrum/npm-pipeline-base/issues"
   },
+  "files": [
+    "dist/"
+  ],
   "homepage": "https://github.com/culturescrum/npm-pipeline-base#readme"
 }
