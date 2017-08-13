@@ -1,10 +1,11 @@
 {
   "name": "cscrum-npm-base",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "culturescrum boilerplate for npm",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "mkdir -p dist/ && touch dist/index.html"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/culturescrum/npm-pipeline-base/issues"
   },
+  "files": [
+    "dist/"
+  ],
   "homepage": "https://github.com/culturescrum/npm-pipeline-base#readme"
 }
