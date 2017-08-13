@@ -1,6 +1,6 @@
 {
   "name": "cscrum-npm-base",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "culturescrum boilerplate for npm",
   "main": "index.js",
   "scripts": {
