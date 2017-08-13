@@ -24,5 +24,15 @@ echo "Created branch build-${BUILD_NUMBER}"
         sh 'echo "preparing to package"'
       }
     }
+    stage('commit package') {
+      steps {
+        sleep 2
+      }
+    }
+    stage('publish package') {
+      steps {
+        sleep 2
+      }
+    }
   }
 }
