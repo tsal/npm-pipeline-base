@@ -1,9 +1,9 @@
 pipeline {
   agent {
-    dockerfile {
-      filename '.build/Dockerfile'
+    docker {
+      image 'alexhayton/node-boron-npm-5'
     }
-    
+
   }
   stages {
     stage('prepare git') {
