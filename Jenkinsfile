@@ -11,7 +11,7 @@ echo "Created branch build-${BUILD_NUMBER}"
     }
     stage('build') {
       steps {
-        sleep 2
+        sh 'npm run ci'
       }
     }
     stage('test') {
